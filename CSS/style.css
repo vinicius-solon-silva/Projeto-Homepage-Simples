@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:whitesmoke; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+button{
+    padding: 1%;
+    font-size: 130%; 
+    margin: 1% 0;
+}
+
+li{
+    list-style: none;
+}
+ul li{
+    display: inline-block; 
+    border: none; 
+    font-size: 150%; 
+    padding: 1%; 
+    margin: 3%;
+}
+
+.align1{
+    text-align: center;
+    background-color: teal;
+}
+
+#cabecalho{
+    background-color:#a1f0ea;
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #40c5ba;
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+.topnav a:hover {
+    border-bottom: 3px solid #004770;
+  }
+  
+.topnav a.active {
+    border-bottom: 3px solid #004770;
+  }
+       
+#contatos ul li{
+    display: inline-block; 
+    float: center;
+    margin-left: 8%;
+}
+
+#seção1{
+    background-color: teal;   
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}      
+#seção2{
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    color: blanchedalmond;
+} 
+#seção3{
+    background-color: teal;    
+} 
+#texto-beneficio{
+    padding: 1%;
+    line-height: 180%;
+}
+
+#seção4{
+    background-color: lightgray;     
+    background-size: 120%;
+    background-repeat: no-repeat;     
+} 
+#seção5{
+    background-color:#004770;
+    color: blanchedalmond;    
+}  
+
+input{
+    border: 1px solid black; 
+    margin: 1%; 
+    width: 80%; 
+    font-size: 100%; 
+    padding: 0.5% 1.5%;
+}
+textarea{
+    border: 1px solid black; 
+    margin: 1%; 
+    width: 60%; 
+    height: 120; 
+    font-size: 100%; 
+    padding: 0.5% 1.5%;
+}
+
+#footer{background-color:#a1f0ea
+}   
+#mao{
+    width: 15%;
+}
+
+
+
+
